@@ -1,3 +1,9 @@
+.prova3{
+    background-color: grey;
+    height: 40px;
+    /* Debug  */
+}
+/* Header  */
 #prova1{
     background-color: rgb(39, 44, 44);
     padding: 10px 0;
@@ -17,4 +23,29 @@
     #list_header{
         display: inline-block;
     }
+}
+
+/* Jumbotron  */
+.mediumacquamarine{
+    background-color: mediumaquamarine;
+    padding: 20px 0;
+}
+#avatar{
+    width: 100%;
+    height: auto;
+}
+
+/* Portfolio  */
+#portfolio{
+    padding: 20px;
+}
+.prova4{
+    /* debug */
+    height: 100px;
+    border: 1px solid black;
+}
+
+/* footer  */
+#footer_color{
+    background-color: rgb(73, 80, 110);
 }
