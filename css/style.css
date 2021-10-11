@@ -1,0 +1,20 @@
+#prova1{
+    background-color: rgb(39, 44, 44);
+    padding: 10px 0;
+    /* Debug  */
+}
+.prova_2{
+    background-color: white;
+    /* Debug  */
+}
+#list_header{
+    display: none;
+}
+@media all and (min-width: 768px){
+    #hamburger_menu{
+        display: none;
+    }
+    #list_header{
+        display: inline-block;
+    }
+}
