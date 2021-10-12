@@ -156,7 +156,10 @@ footer{
 }
 footer #icone_footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+#icone_footer .fab{
+    margin: 0 10px;
 }
 footer .style_icon_footer {
     width: 50px;
