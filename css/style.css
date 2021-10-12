@@ -1,15 +1,4 @@
 
-#prova1{
-    background-color: rgb(39, 44, 44);
-    padding: 10px 0;
-    /* Debug  */
-}
-.prova_2{
-    background-color: white;
-    /* Debug  */
-}
-
-
 /* Header  */
 header #navbarNavDropdown{
     justify-content: flex-end;
@@ -50,18 +39,22 @@ header .navbar-light .navbar-toggler {
 .star_design{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .ms_star{
     text-align: center;
     font-size: 40px;
     color: white;
 }
-.hr_design{
-    display: flex;
-    align-items: center;
+.line{
+    width: 100px;
+    height: 2px;
+    background-color: black;
 }
-.hr_design div{
-    height: 10px;
+.line_white{
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
 }
 #bottom_jumbotron{
     text-align: center;
@@ -114,14 +107,6 @@ header .navbar-light .navbar-toggler {
     padding: .675rem .75rem;
     border-radius: 0.45rem;
 }
-/* footer  */
-#footer_color{
-    background-color: rgb(73, 80, 110);
-}
-.test_1{
-    text-align: center;
-    /* debug */
-}
 
 /* CONTACT  */
 #contact{
@@ -141,7 +126,8 @@ header .navbar-light .navbar-toggler {
     padding-left: 0;
 }
 #contact #contact_message{
-    min-height: 100px;
+    width: 100%;
+    border: none;    
 }
 
 #contact .btn-light {
@@ -157,7 +143,53 @@ header .navbar-light .navbar-toggler {
     padding-left: 0;
     margin-top: 20px;
 }
+#contact .star_design .ms_star{
+    color: black;
+}
 
+/* footer  */
+footer{
+    color: white;
+}
+#footer_color{
+    background-color: rgb(73, 80, 110);
+}
+footer #icone_footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer .style_icon_footer {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .ms_col_footer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+footer h5{
+    margin-bottom: 10px;
+}
+#start_bs_footer{
+    text-decoration: none;
+    color: mediumaquamarine;
+}
+
+/* parte bassa footer  */
+#footer_bottom{
+    height: 56px;
+    background-color: #3f4c59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-copyright{
+    margin: 0 5px;
+}
 /* Mediaquery  */
 @media all and (min-width: 768px){
     .navbar-expand-lg .navbar-toggler {
