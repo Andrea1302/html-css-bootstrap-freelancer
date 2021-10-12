@@ -128,6 +128,35 @@ header .navbar-light .navbar-toggler {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+#contact .border_imput{
+    width: 100%;
+    border: none;
+    color: black;
+}
+#contact .contact_write{
+    padding-left: 0;
+}
+#contact .padding_input{
+    border-bottom: 1px solid grey;
+    padding-left: 0;
+}
+#contact #contact_message{
+    min-height: 100px;
+}
+
+#contact .btn-light {
+    color: #fff;
+    background-color: mediumaquamarine;
+    border-color:mediumaquamarine;
+}
+#contact .btn{
+    padding: .675rem .75rem;
+    border-radius: 0.45rem;
+}
+#contact #div_bottom_send{
+    padding-left: 0;
+    margin-top: 20px;
+}
 
 /* Mediaquery  */
 @media all and (min-width: 768px){
